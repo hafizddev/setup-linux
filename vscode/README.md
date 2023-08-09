@@ -427,7 +427,10 @@ sudo chown -R root /usr/share/code
 	"editor.renderLineHighlight": "none",
 	"editor.cursorBlinking": "phase",
 	// breadcrumb
-	"breadcrumbs.enabled": false,
+	"breadcrumbs.symbolPath": "off",
+	"breadcrumbs.filePath": "last",
+	"breadcrumbs.enabled": true,
+	"breadcrumbs.icons": false,
 	// explorer
 	"explorer.confirmDelete": false,
 	"extensions.autoCheckUpdates": false,
